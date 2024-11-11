@@ -43,7 +43,10 @@ public class Firezard implements Habilities{
     public void turnAction() {
 
         Scanner myKB = new Scanner(System.in);
-        System.out.println("choose an action");
+        System.out.println("choose an action\n"
+        + "1) Attack\n"
+        + "2) Defend\n"
+        + "3) Heal\n");
 
         Actions action = null;
         int actionChoice = myKB.nextInt();
